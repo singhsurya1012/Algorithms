@@ -29,15 +29,12 @@ public class MergeSort implements Sorter {
 		//breaking the array into two half and calling the same function recursively
 		mergeSortArray(arr, start, mid);
 		mergeSortArray(arr, mid+1, end);
-		//heart of the algorithm where the merging f two half takes place
+		//heart of the algorithm where the merging of two half takes place
 		mergeArray(arr,start,mid,end);
 	}
 
 	private void mergeArray(int[] arr, int start, int mid, int end) {
-		
-		
-		
-		
+
 		//Here we create two pointers one for left half and the other for right half
 		int leftIndex = start;
 		int rightIndex = mid+1;
