@@ -44,7 +44,7 @@ public class InPlaceMergeSort implements Sorter {
 				leftIndex++;
 
 			}else {
-				//if right half element is greater then we have to move entire elements between left index and right index 
+				//if right half element is smaller then we have to move entire elements between left index and right index
 				//copy the value before moving
 				int value = arr[rightIndex];
 				int index = rightIndex;
