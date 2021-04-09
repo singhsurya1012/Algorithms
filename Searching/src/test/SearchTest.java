@@ -12,6 +12,8 @@ public class SearchTest {
 
         Search search = new RabinKarpAlgorithm();
 
+        System.out.println("First Test case");
+        //Real World Scenario
         String text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry." +
                 " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s," +
                 " when an unknown printer took a galley of type and scrambled it to make a type specimen book." +
@@ -37,6 +39,19 @@ public class SearchTest {
             } else {
                 System.out.println("Search Failed");
             }
+        }
+
+
+        System.out.println("Second Test case");
+        //Complex Test Case
+        String text1 = "ABABDABACDABABCABAB";
+        String pattern1 = "ABABCABAB";
+
+        List<Integer> l = search.findOccurrences(text1, pattern1);
+        if (10 == l.get(0)) {
+            System.out.println("Occurrence at index : " + l.get(0));
+        } else {
+            System.out.println("Search Failed");
         }
     }
 }
