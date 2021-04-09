@@ -1,8 +1,8 @@
-package surya.sorting.main;
+package main;
 
 import java.util.List;
 
-public interface Sorter {
+public interface Sort {
 
 	
 	public void sortArray(int[] arr);

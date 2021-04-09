@@ -1,10 +1,11 @@
-package surya.sorting.algorithms;
+package algorithms;
+
+
+import main.Sort;
 
 import java.util.List;
 
-import surya.sorting.main.Sorter;
-
-public class BubbleSort implements Sorter{
+public class BubbleSort implements Sort {
 
 	/***
 	 * Example in pseudo code, assuming a zero-indexed array:

@@ -1,10 +1,11 @@
-package surya.sorting.algorithms;
+package algorithms;
+
+
+import main.Sort;
 
 import java.util.List;
 
-import surya.sorting.main.Sorter;
-
-public class InsertionSort implements Sorter{
+public class InsertionSort implements Sort {
 
 	/**
 	 * The main logic behind insertion sort is to break array into sorted and unsorted section
