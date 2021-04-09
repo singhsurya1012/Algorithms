@@ -1,8 +1,6 @@
 package algorithms;
 
 
-import main.Sort;
-
 import java.util.List;
 
 public class QuickSort implements Sort {

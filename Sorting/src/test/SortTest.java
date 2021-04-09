@@ -1,11 +1,12 @@
-package main;
+package test;
 
 
 import algorithms.QuickSort;
+import algorithms.Sort;
 
 import java.util.List;
 
-public class MainApp {
+public class SortTest {
 
     public static void main(String[] args) {
 
